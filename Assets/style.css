@@ -1,0 +1,20 @@
+.name-heading {
+    justify-content: left;
+    background-color: navajowhite;
+}
+
+.navigation {
+    background-color: aquamarine;
+    list-style: none;
+}
+
+.cover-photo {
+    color: rgb(255, 255, 255);
+    position: relative;
+    min-height: 350px;
+    background: url(./Images/cover-photo.png);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
