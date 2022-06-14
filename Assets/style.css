@@ -3,18 +3,65 @@
     background-color: navajowhite;
 }
 
-.navigation {
-    background-color: aquamarine;
-    list-style: none;
-}
 
 .cover-photo {
-    color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 180px;
+}
+
+
+.proj-image { 
+    width: 100%;
+    height: 180px;
+}
+
+.profile-picture {
+    float: left;
+    width: 140px;
+    height: 160px;
+    margin: 0px 10px;
+}
+
+.about-me {
+    width: 75%;
+    margin-left: 2%;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    width: 20%;
+    padding: 0 10px; 
+    border-right: 3px solid #19344e;
+    color: var(--navy);
+}
+
+nav {
+    display: inline;
+    background-color: aquamarine;
+}
+
+body {
+    font-family: Georgia, serif;
+    font-size: 100%;
+    background-color: var(--white);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: aquamarine;
+  
+}
+
+figure {
     position: relative;
-    min-height: 350px;
-    background: url(./Images/cover-photo.png);
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
